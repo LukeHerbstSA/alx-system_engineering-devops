@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -laS . .. /boot
+ls -lan . & ls -lan .. & ls -lan /boot | sort -S
