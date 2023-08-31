@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -la ./ | lpr & ls -la ../ | lpr & ls -la /boot/ | lpr
+ls -laS ./ ../ /boot/
