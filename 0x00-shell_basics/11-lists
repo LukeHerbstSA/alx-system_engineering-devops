@@ -1,2 +1,2 @@
 #!/bin/bash
-(ls -la ./ & ls -la ../ & ls /boot/) | sort -nr
+ls -la ./ | lpr & ls -la ../ | lpr & ls -la /boot/ | lpr
