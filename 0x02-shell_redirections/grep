@@ -1,0 +1,47 @@
+#!/bin/bash
+echo -e "Hello, World\n"
+#!/bin/bash
+echo \"\(\Ôo\)\'
+#!/bin/bash
+rm ./*.js & rm ./*/*.js
+#!/bin/bash
+du ./ | wc -l
+#!/bin/bash
+ls -t ./ | head 
+#!/bin/bash
+
+#!/bin/bash
+grep root /etc/passwd
+#!/bin/bash
+grep bin /etc/passwd | wc -l
+#!/bin/bash
+
+#!/bin/bash
+grep !
+#!/bin/bash
+cat /etc/passwd
+#!/bin/bash
+cat /etc/passwd /etc/hosts
+#!/bin/bash
+tail /etc/passwd
+#!/bin/bash
+head /etc/passwd
+#!/bin/bash
+head -n 3 /etc/passwd | tail -n 1
+#!/bin/bash
+touch \*\\'"Best School"\'\\*$\?\*\*\*\*\*:)
+#!/bin/bash
+ls -la > ls_cwd_content || ls -la >> ls_cwd_content
+
+this
+is 
+a
+test
+file
+to
+test
+the
+output
+of
+commands
+testfile
