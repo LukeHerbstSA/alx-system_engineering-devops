@@ -4,7 +4,7 @@
 i=0
 until [ $i -eq 10 ];
 do
-	printf("Best School\n")
+	printf "Best School\n"
 	((i++))
 done
-printf("Best School\n")
+printf "Best School\n"
