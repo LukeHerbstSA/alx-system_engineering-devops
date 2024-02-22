@@ -2,14 +2,15 @@
 #prints text that differsbase on iteration num
 
 i=1
-while [ $i -lt 11 ];
+while [ $i -lt 10 ];
 do
 	if [ $i -eq 4 ]; then
 		printf "bad luck\n"
-	elif [ $i -eq 8 ]
+	elif [ $i -eq 8 ]; then
 		printf "good luck\n"
 	else
 		printf "Best School\n"
 	fi
+	((i++))
 done
 printf "Best School"
