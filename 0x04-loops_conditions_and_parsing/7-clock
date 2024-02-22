@@ -1,3 +1,15 @@
 #!/usr/bin/env bash
 #prints the time till 12 hours 59 minutes
 
+i=0
+while [ ! $i -eq 13 ];
+do
+	j=1
+	printf "Hour: %d\n" "$i"
+	while [ ! $j -eq 60 ];
+	do
+		printf "%d\n" "$j"
+		((j++))
+	done
+	((i++))
+done
