@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+#using the until loop to print best school
+
+i=0
+until [ $i -eq 10 ];
+do
+	printf("Best School\n")
+	((i++))
+done
+printf("Best School\n")
