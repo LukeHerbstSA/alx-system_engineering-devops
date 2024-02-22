@@ -13,7 +13,7 @@ do
 			printf "4\nbad luck from China\n"
 			;;
 		9)
-			printf "8\nbad luck from Japan\n"
+			printf "9\nbad luck from Japan\n"
 			;;
 		17)
 			printf "17\nbad luck from Italy\n"
