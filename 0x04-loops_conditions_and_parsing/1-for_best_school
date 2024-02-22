@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 #This script that echos best school
-for i in $(seq 1 10);
+
+for i in $(seq 1 9);
 do
-	echo "Best School"
+	printf "Best School\n"
 done
+printf "Best School"
