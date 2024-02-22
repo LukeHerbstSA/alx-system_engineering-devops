@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 #lists all files in this directory in list format
 
-for i in $PATHNAME/*;
+files=$(ls -i | cut -d '-' -f 2-)
+for i in $files;
 do
-	printf($i)
+	printf "%s\n" "$i"
 done

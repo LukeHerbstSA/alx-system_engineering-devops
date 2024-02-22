@@ -6,7 +6,7 @@ while [ $i -lt 21 ];
 do
 	case $i in
 		20)
-			printf "$i"
+			printf "%d" "$i"
 			break
 			;;
 		4)
@@ -19,7 +19,7 @@ do
 			printf "17\nbad luck from Italy\n"
 			;;
 		*)
-			printf "$i\n"
+			printf "%d\n" "$i"
 	esac
 	((i++))
 done
