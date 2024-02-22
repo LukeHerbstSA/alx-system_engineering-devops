@@ -5,4 +5,4 @@ for _ in $(seq 1 9);
 do
 	printf "Best School\n"
 done
-printf "Best School"
+printf "Best School\n"
