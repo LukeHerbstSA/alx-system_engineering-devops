@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-#echos to infinity forever
+#echos to infinity foreve1r
 
-while [ 0 -eq 0 ];
+while true;
 do
 	echo "To infinity and beyond"
 	sleep 2
