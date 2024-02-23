@@ -2,5 +2,4 @@
 #kills file 4 - works when ran simultaneously
 
 pid=$(pgrep "4-to_infinity_and_beyond")
-echo "Terminated"
 kill $((pid))
