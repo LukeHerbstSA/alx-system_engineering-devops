@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
+#displays processes along with all the extra info from fields
 
 ps -e -o user,pid,%cpu,%mem,vsz,rss,tty,stat,start,time,command
