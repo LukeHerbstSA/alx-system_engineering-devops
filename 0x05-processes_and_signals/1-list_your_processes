@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 #displays processes along with all the extra info from fields
 
-ps -e -a -o user,pid,%cpu,%mem,vsz,rss,tty,stat,start,time,command
+ps --forest -a -r -o user,pid,%cpu,%mem,vsz,rss,tty,stat,start,time,command
