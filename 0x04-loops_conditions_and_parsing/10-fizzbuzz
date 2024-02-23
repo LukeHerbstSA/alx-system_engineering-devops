@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+#fizzbuzz bash script
+
+i=1
+while [ ! $i -eq 101 ];
+do
+	if ((i % 3 == 0)) && ((i % 5 == 0)); then
+		printf "FizzBuzz\n"
+	elif ((i % 3 == 0)); then
+		printf "Fizz\n"
+	elif ((i % 5 == 0)); then
+		printf "Buzz\n"
+	else
+		printf "%d" "$i"
+	fi
+	((i++))
+done
