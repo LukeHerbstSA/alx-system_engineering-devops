@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+#prints a message indefinitely unless sigterm invoked
+
+while true;
+do
+	echo "To infinity and beyond"
+	sleep 2
+	trap TERM;
+		echo "I am invincible!!!"
+done
