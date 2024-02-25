@@ -3,7 +3,7 @@
 
 if [ -e "school" ]; then
 	printf "school file exists\n"
-	if [ ! "$(stat -c "%d" "school")" -eq 0 ]; then
+	if [ ! "$(stat -c "%s" "school")" -eq 0 ]; then
 		printf "school file is not empty\n"
 	else
 		printf "school file is empty\n"
