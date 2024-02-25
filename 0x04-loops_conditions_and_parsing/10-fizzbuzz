@@ -10,7 +10,7 @@ do
 	elif ((i % 5 == 0)); then
 		printf "Buzz\n"
 	else
-		printf "%d" "$i"
+		printf "%d\n" "$i"
 	fi
 	((i++))
 done
