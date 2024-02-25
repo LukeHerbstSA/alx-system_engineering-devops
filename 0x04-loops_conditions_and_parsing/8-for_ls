@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #lists all files in this directory in list format
 
-files=$(ls -i | cut -d '-' -f 2-)
+files=$(find . -type f | cut -d '-' -f 2-)
 for i in $files;
 do
 	printf "%s\n" "$i"
