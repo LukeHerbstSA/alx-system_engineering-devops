@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+#script that pings passed ip
+
+i=0
+if [ "$#" -ne 2 ]; then
+	echo "Usage: 5-is_the_host_on_the_network {IP_ADDRESS}"
+fi
+while [ i -lt 5 ];
+do
+	ping (ARGV[1])
+end
