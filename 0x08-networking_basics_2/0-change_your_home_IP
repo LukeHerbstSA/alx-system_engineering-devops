@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#cuts out localhost and facebook and replaces
 
 cp /etc/hosts /etc/hosts.bak
 

@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
+#displays all ipv4 connections
 
 nc -4
