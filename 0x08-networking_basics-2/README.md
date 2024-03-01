@@ -1,1 +1,1 @@
-Configuring hostnames and ips - server administration
+Configuring hostnames and ips, server administration
