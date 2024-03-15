@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 #displays all ipv4 connections
 
-nc -4
+ss -tl4n | awk '{print $4}' | cut -d ':' -f1 | grep -v 'Local'
