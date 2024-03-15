@@ -4,6 +4,6 @@
 cp /etc/hosts /etc/hosts.bak
 
 sudo sed -i "/localhost/d" /etc/hosts
-printf "127.0.0.2\tlocalhost" >> /etc/hosts
+printf "127.0.0.2\tlocalhost\n" >> /etc/hosts
 sudo sed -i "/facebook.com/d" /etc/hosts
-printf "8.8.8.8\tfacebook.com" >> /etc/hosts
+printf "8.8.8.8\tfacebook.com\n" >> /etc/hosts
